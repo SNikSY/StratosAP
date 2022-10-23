@@ -4,100 +4,106 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-ThinItalic.otf);
-  font-weight: 100;
+font-family: "stratos_sb";
+src: url("../fonts/StratosLCG-Desktop-semibold.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-Thin.otf);
-  font-weight: 100;
+font-family: "stratos_b";
+src: url("../fonts/StratosLCG-Desktop-bold.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-SemiLightItalic.otf);
-  font-weight: 600;
+font-family: "stratos_r";
+src: url("../fonts/StratosLCG-Desktop-regular.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-SemiLight.otf);
-  font-weight: 600;
+font-family: "stratos_eb";
+src: url("../fonts/StratosLCG-Desktop-extrabold.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-SemiBoldItalic.otf);
-  font-weight: 600;
+font-family: "stratos_bl";
+src: url("../fonts/StratosLCG-Desktop-black.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
-/* @font-face {
-  font-family: Stratos-SemiBold;
-  src: url(/fonts/Stratos-SemiBold.woff2);
-  /* font-weight: 600; */
-} */
+
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-Regular.otf);
-  font-weight: 400;
+font-family: "stratos_ti";
+src: url("../fonts/StratosLCG-Desktop-thinitalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-MediumItalic.otf);
-  font-weight: 400;
+font-family: "stratos_eli";
+src: url("../fonts/StratosLCG-Desktop-extralightitalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-Medium.otf);
-  font-weight: 400;
+font-family: "stratos_li";
+src: url("../fonts/StratosLCG-Desktop-lightitalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(../fonts/Stratos-Light.otf);
-  font-weight: 300;
+font-family: "stratos_sli";
+src: url("../fonts/StratosLCG-Desktop-semilightitalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-Italic.otf);
-  font-weight: 400;
+font-family: "stratos_i";
+src: url("../fonts/StratosLCG-Desktop-italic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-ExtraLightItalic.otf);
-  font-weight: 200;
+font-family: "stratos_mi";
+src: url("../fonts/StratosLCG-Desktop-mediumitalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-ExtraLight.otf);
-  font-weight: 200;
+font-family: "stratos_sbi";
+src: url("../fonts/StratosLCG-Desktop-semibolditalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-ExtraBoldItalic.otf);
-  font-weight: 500;
+font-family: "stratos_bi";
+src: url("../fonts/StratosLCG-Desktop-bolditalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-ExtraBold.otf);
-  font-weight: 500;
+font-family: "stratos_ebi";
+src: url("../fonts/StratosLCG-Desktop-extrabolditalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-BoldItalic.otf);
-  font-weight: 500;
+font-family: "stratos_bbi";
+src: url("../fonts/StratosLCG-Desktop-blackitalic.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
 }
-@font-face {
-  font-family: Stratos-Bold;
-  src: url(/fonts/Stratos-Bold.otf);
-  /* font-weight: 500; */
-}
-@font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-BlackItalic.otf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: stratos_f;
-  src: url(/fonts/Stratos-Black.otf);
-  font-weight: 600
-}
+
+
+
+
+
+
+
+
+
+
 body {
   background-color: white;
   font-family: stratos_r, sans-serif;
@@ -121,6 +127,19 @@ img {
   position: relative;
   align-items: center;
   justify-content: center;
+
+  font-family: "stratos_sb"
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'onum' on;
+
+  color: #FFFFFF;
 }
 .image {
   position: absolute;
@@ -133,47 +152,42 @@ img {
   position: absolute;
   color: #2844DA;
   font-size: 220px;
-  font-weight: bold;
-  margin-top: 236px;
-  margin-left: 459px;
-  font-family: Stratos-Bold;
+  font-weight: regular;
+  margin-top: -332px;
+  margin-left: -28px;
+  text-transform: lowercase;
+  font-family: "stratos_b";
 }
 .titletwo {
   position: absolute;
   color: #2844DA;
   font-size: 220px;
   font-weight: bold;
-  margin-top: 236px;
-  margin-left: 1082px;
-  font-family: Stratos-Bold;
+  margin-top: -332px;
+  margin-left: 835px;
+  text-transform: lowercase;
+  font-family: "stratos_b";
 }
 .leftznak {
   position: absolute;
-  background-color: #2844DA;
-  width: 610px;
-  height: 380px;
-  border-radius: 150px;
-  top: 555px;
-  left: 42px;
+width: 607px;
+height: 387px;
+left: 45px;
+top: 555px;
+
+
+background: #2844DA;
+border-radius: 150px;
 }
 .main-text {
-position: absolute;
-width: 500px;
+  position: absolute;
+width: 560px;
 height: 200px;
-left: 55px;
-top: 94px;
+left: 45px;
+top: 120px;
 
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
 
-color: #FFFFFF;
+
 }
 
 .design {
@@ -183,17 +197,6 @@ color: #FFFFFF;
   left: 61px;
   top: 62px;
 
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #FFFFFF;
-
 }
 .year {
   position: absolute;
@@ -202,16 +205,6 @@ color: #FFFFFF;
   left: 459px;
   top: 60px;
 
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #FFFFFF;
 }
 .napravlone {
   position: absolute;
@@ -220,16 +213,6 @@ height: 30px;
 left: 61px;
 top: 205px;
 
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF
 }
 
 .napravltwo {
@@ -239,16 +222,6 @@ height: 30px;
 left: 61px;
 top: 265px;
 
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
 
 }
 
@@ -257,18 +230,8 @@ position: absolute;
 width: 335.53px;
 height: 110px;
 left: 61px;
-top: 75px;
+top: 100px;
 
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
 }
 
 .nachert {
@@ -278,16 +241,6 @@ height: 30px;
 left: 383px;
 top: 265px;
 
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
 }
 
 .arrowm {
@@ -329,142 +282,78 @@ top: 206.5px;
   position: relative;
   align-items: center;
   justify-content: center;
+  color: #2844DA;
+  font-family: "stratos_sb";
 }
 .zagolb {
   position: relative;
-  width: 900px;
-  height: 60px;
+  width: 1000px;
   left: 45px;
   top: 65px;
 
-  font-style: normal;
-  font-weight: 600;
+
   font-size: 48px;
   line-height: 60px;
-  display: flex;
-  align-items: center;
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #2844DA;
 }
 
 .bigc {
 position: absolute;
-width: 258px;
-height: 567px;
 left: 591px;
 top: 0px;
 
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 600;
 font-size: 450px;
 line-height: 567px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
 }
 
 .bigo {
 position: absolute;
-width: 262px;
-height: 567px;
 left: 229px;
 top: 493px;
 
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 600;
 font-size: 450px;
 line-height: 567px;
-/* identical to box height */
 
-display: flex;
-align-items: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
 }
 
 .bigp {
-position: absolute;
-width: 239px;
-height: 567px;
-left: 953px;
-top: 491px;
+  position: absolute;
+  left: 953px;
+  top: 491px;
 
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 600;
-font-size: 450px;
-line-height: 567px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
+  font-size: 450px;
+  line-height: 567px;
 }
 
 .smallc {
-position: absolute;
-height: 45px;
-left: 330.52px;
-top: 491.3px;
+  position: absolute;
+  left: 409.52px;
+  top: 491.3px;
 
-
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 45px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
 }
 
 .smallo {
-position: absolute;
-height: 45px;
-left: 214.52px;
-top: 981.98px;
+  position: absolute;
+  left: 246.52px;
+  top: 981.98px;
 
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 45px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
 
-color: #2844DA;
 }
 
 .smallp {
-position: absolute;
-height: 45px;
-left: 807.52px;
-top: 983.51px;
+  position: absolute;
+  left: 867.52px;
+  top: 982.8px;
 
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 45px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
+  font-size: 36px;
+  line-height: 45px;
 
-color: #2844DA;
-
+  text-transform: uppercase;
 }
 
 
@@ -485,7 +374,8 @@ color: #2844DA;
   position: relative;
   align-items: center;
   justify-content: center;
-  z-index: 1000
+  color: white;
+  font-family: "stratos_sb";
 }
 
 .znak {
@@ -493,147 +383,75 @@ color: #2844DA;
   width: 1042px;
   height: 675px;
   left: 199px;
-  top: 125px;
+  top: 165px;
 
   background: #2844DA;
   border-radius: 150px;
 }
 
 .zagolc {
-position: absolute;
-height: 60px;
-left: 284px;
-top: 72px;
+  position: absolute;
+  left: 338px;
+  top: 70px;
 
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 60px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: uppercase;
 }
 
 .arrowf {
-position: absolute;
-left: 12.57%;
-top: 25.87%;
-
-
+  position: absolute;
+  left: 131px;
+  top: 176px;
 }
 .arrowr {
-position: absolute;
-left: 14.19%;
-top: 65.43%;
+  position: absolute;
+  left: 131px;
+  top: 446px;
 }
+
 
 .lineone {
-position: absolute;
-width: 621.46px;
-height: 142.95px;
-left: 300.54px;
-top: 195px;
+  position: absolute;
+  width: 621.46px;
+  height: 142.95px;
+  left: 300.54px;
+  top: 195px;
+
+  font-size: 96px;
+  line-height: 121px;
 }
+
 .lineone_k {
-position: absolute;
-width: 76.14px;
-height: 142.95px;
-left: 0px;
-top: 0px;
-
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 121px;
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
 .lineone_plus {
-position: absolute;
-width: 58.57px;
-height: 55.53px;
-left: 126.51px;
-top: 35.44px;
-
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 121px;
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
+  position: absolute;
+  left: 126.51px;
 }
+
 .lineone_revk {
-position: absolute;
-width: 76.14px;
-height: 142.95px;
-left: 240px;
-top: 0px;
-
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 121px;
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
-transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  left: 240px;
+  top: 0px;
 }
 
 .lineone_equal {
-position: absolute;
-width: 58.57px;
-height: 55.53px;
-left: 383.04px;
-top: 35.44px;
-
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 121px;
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  position: absolute;
+  left: 383.04px;
+  top: 0px;
 }
 
 .lineone_zh {
   position: absolute;
-width: 76.14px;
-height: 142.95px;
-left: 500px;
-top: 0px;
-
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 121px;
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
+  left: 500px;
+  top: 0px;
 }
+
 
 .linetwo {
   position: absolute;
@@ -641,24 +459,19 @@ color: #FFFFFF;
   height: 143.3px;
   left: 300.54px;
   top: 414.65px;
+
+  font-size: 96px;
+  line-height: 121px;
+}
+.lineone_l {
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 .lineone_ts {
   position: absolute;
-  width: 76.14px;
-  height: 142.95px;
   left: 240px;
   top: 0px;
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 121px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #FFFFFF;
 }
 
 
@@ -687,21 +500,23 @@ color: #FFFFFF;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  top: 1px;
+  top: 2px;
+
+  color: white;
+  font-family: "stratos_sb";
+  font-size: 55px;
+  line-height: 90%;
 }
 .bridge {
-position: absolute;
-width: 1440px;
-height: 1024px;
-left: 0;
-top: 0;
-
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
 }
  .car {
   position: absolute;
   width: 361px;
   height: 292px;
-  left: 1057.52px;
+  left: 1057px;
   top: 19px;
   animation-timing-function: linear;
   animation-duration: 3s;
@@ -751,240 +566,156 @@ top: 0;
 }
 
 .zagolw {
-position: absolute;
-left: 3.12%;
-right: 87.92%;
-top: 70.7%;
-bottom: 25.1%;
+  position: absolute;
+  left: 3.12%;
+  top: 70.7%;
 
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 90%;
-
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  font-size: 48px;
 }
 #id1 {
-position: absolute;
-left: 3.12%;
-right: 92.57%;
-top: 79.69%;
-bottom: 15.43%;
+  position: absolute;
+  left: 3.12%;
+  top: 79.69%;
 
-font-family: 'Stratos';
-font-style: italic;
-font-weight: 250;
-font-size: 55px;
-line-height: 90%;
-/* or 43px */
-
-display: flex;
-align-items: flex-end;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
+  font-family: 'stratos_ti';
+  font-style: italic;
 }
 #id2 {
   position: absolute;
-left: 8.33%;
-right: 87.36%;
-top: 79.69%;
-bottom: 15.53%;
+  left: 8.33%;
+  top: 79.69%;
 
-font-family: 'Stratos';
-font-style: italic;
-font-weight: 275;
-font-size: 55px;
-line-height: 90%;
-/* or 49px */
-
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  font-family: 'stratos_eli';
+  font-style: italic;
 }
 #id3 {
   position: absolute;
-left: 13.54%;
-right: 82.15%;
-top: 79.69%;
-bottom: 15.53%;
+  left: 13.54%;
+  top: 79.69%;
 
-  font-family: 'Stratos';
-font-style: italic;
-font-weight: 300;
-font-size: 55px;
-line-height: 90%;
-/* or 49px */
-
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  font-family: 'stratos_li';
+  font-style: italic;
 }
 #id4 {
   position: absolute;
   left: 18.75%;
-  right: 76.94%;
   top: 79.69%;
-  bottom: 15.53%;
 
-  font-family: 'Stratos';
+  font-family: 'stratos_sli';
   font-style: italic;
-  font-weight: 350;
-  font-size: 55px;
-  line-height: 90%;
-  /* or 49px */
-
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #FFFFFF;
-
-
 }
 
 #id5 {
   position: absolute;
-left: 23.96%;
-right: 71.74%;
-top: 79.79%;
-bottom: 15.43%;
+  left: 23.96%;
+  top: 79.79%;
 
-font-family: 'Stratos';
-font-style: italic;
-font-weight: 400;
-font-size: 55px;
-line-height: 90%;
-/* or 49px */
-
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
+  font-family: 'stratos_i';
+  font-style: italic;
 }
 
 #id6 {
   position: absolute;
-left: 3.12%;
-right: 92.57%;
-top: 87.99%;
-bottom: 7.13%;
+  left: 3.12%;
+  top: 87.99%;
 
-font-family: 'Stratos';
-font-style: italic;
-font-weight: 500;
-font-size: 48px;
-line-height: 90%;
-/* or 43px */
-
-display: flex;
-align-items: flex-end;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  font-family: 'stratos_mi';
+  font-style: italic;
 }
 
 #id7 {
   position: absolute;
-left: 8.33%;
-right: 87.36%;
-top: 87.99%;
-bottom: 7.23%;
+  left: 8.33%;
+  top: 87.99%;
 
-font-family: 'Stratos';
-font-style: italic;
-font-weight: 600;
-font-size: 55px;
-line-height: 90%;
-/* or 49px */
-
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  font-family: 'stratos_sbi';
+  font-style: italic;
 }
 
 #id8 {
   position: absolute;
-left: 13.54%;
-right: 82.15%;
-top: 87.99%;
-bottom: 7.23%;
+  left: 13.54%;
+  top: 87.99%;
 
-font-family: 'Stratos';
-font-style: italic;
-font-weight: 700;
-font-size: 55px;
-line-height: 90%;
-/* or 49px */
-
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  font-family: 'stratos_bi';
+  font-style: italic;
 }
 
 #id9 {
   position: absolute;
-left: 18.75%;
-right: 76.94%;
-top: 87.99%;
-bottom: 7.23%;
+  left: 18.75%;
+  top: 87.99%;
 
-font-family: 'Stratos';
-font-style: italic;
-font-weight: 800;
-font-size: 55px;
-line-height: 90%;
-/* or 49px */
-
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #FFFFFF;
-
+  font-family: 'stratos_ebi';
+  font-style: italic;
 }
 
 #id10 {
   position: absolute;
   left: 23.96%;
-  right: 71.74%;
   top: 88.09%;
-  bottom: 7.13%;
 
-  font-family: 'Stratos';
+  font-family: 'stratos_bbi';
   font-style: italic;
-  font-weight: 900;
-  font-size: 55px;
-  line-height: 90%;
-  /* or 49px */
-
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #FFFFFF;
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .kuvshin {
   position: absolute;
-  top: 275px;
-  left: 175px;
+  width: 932.28px;
+  height: 669.46px;
+  left: 128.88px;
+  top: 330.57px;
 }
+
+#k1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+#k2{
+  position: absolute;
+  left: 21.13%;
+  top: 6.57%;
+}
+#k3{
+  position: absolute;
+  left: 52.73%;
+  top: 12.85%;
+}
+#k4{
+  position: absolute;
+  left: 26.02%;
+  top: 25.1%;
+}
+#k5{
+  position: absolute;
+  left: 68.43%;
+  top: 38.84%;
+}
+#k6{
+  position: absolute;
+  left: 45.8%;
+  top: 42.72%;
+}
+#k7{
+  position: absolute;
+  left: 45.37%;
+  top: 70.36%;
+}
+#k8 {
+  position: absolute;
+right: 0%;
+top: 64.68%;
+}
+#k9{
+  position: absolute;
+  left: 83.56%;
+  bottom: 0%;
+}
+
+
+
 
 
 .ffth-page {
@@ -995,15 +726,138 @@ color: #FFFFFF;
   align-items: center;
   justify-content: center;
 
+  color: white;
 }
 .zagol {
   position: absolute;
-  color: white;
   font-size: 48px;
   font-weight: 900;
   top: 65px;
   left: 45px;
+  font-family: 'stratos_sb'
 }
+
+.laships {
+  position: absolute;
+  width: 453px;
+  height: 275px;
+  left: 135px;
+  top: 229.53px;
+}
+
+.laships_one {
+  position: absolute;
+  width: 208px;
+  height: 275px;
+  left: 0px;
+  top: 0px;
+}
+
+.laships_two {
+  position: absolute;
+  width: 216px;
+  height: 275px;
+  left: 237px;
+  top: 0px;
+}
+
+
+.langone{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'stratos_sb'
+}
+
+
+#tid1 {
+  position: absolute;
+  left: 1.37px;
+  top: 0px;
+}
+
+#tid2 {
+  position: absolute;
+  left: 3.43px;
+  top: 50px;
+}
+
+#tid3 {
+  position: absolute;
+  left: 1.37px;
+  top: 100px;
+}
+
+#tid4 {
+  position: absolute;
+  left: 3.43px;
+  top: 150px;
+}
+
+#tid5 {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+#tid6 {
+  position: absolute;
+  left: 1.37px;
+  top: 250px;
+}
+
+
+.shipone{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'stratos_r';
+}
+#sid1 {
+  position: absolute;
+  left: 88px;
+  top: 0px;
+}
+#sid2 {
+  position: absolute;
+  left: 88px;
+  top: 50px;
+}
+#sid3 {
+  position: absolute;
+  left: 88px;
+  top: 100px;
+}
+#sid4 {
+  position: absolute;
+  left: 88px;
+  top: 150px;
+}
+#sid5 {
+  position: absolute;
+  left: 88px;
+  top: 200px;
+}
+#sid6 {
+  position: absolute;
+  left: 88px;
+  top: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .rightblock {
   position: absolute;
   width: 890.85px;
@@ -1011,242 +865,26 @@ color: #FFFFFF;
   right: 0px;
   top: 0px;
 }
+
 .cybertruck{
-position: absolute;
-right: 45px;
-top: 0px;
-
+  position: absolute;
+  right: 45px;
+  top: 0px;
 }
-.ship {
-position: absolute;
 
-right: 45px;
-top: 200px
+.ship {
+  position: absolute;
+  right: 45px;
+  top: 200px
 }
 
 .actualship {
   position: absolute;
-  width: 338px;
-  height: 439px;
   left: 104px;
   top: 565px;
 }
 
-.laships {
-position: absolute;
-width: 453px;
-height: 275px;
-left: 135px;
-top: 229.53px;
-}
 
-.lashiips_one {
-  position: absolute;
-width: 208px;
-height: 275px;
-left: 0px;
-top: 0px;
-
-}
-
-.laships_two {
-  position: absolute;
-width: 216px;
-height: 275px;
-left: 237px;
-top: 0px;
-
-}
-
-#tid1 {
-position: absolute;
-width: 43.92px;
-height: 25px;
-left: 1.37px;
-top: 0px;
-
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-
-color: #FFFFFF;
-
-}
-
-#tid2 {
-  position: absolute;
-  width: 45.29px;
-  height: 25px;
-  left: 3.43px;
-  top: 50px;
-
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-
-#tid3 {
-  position: absolute;
-  width: 43.92px;
-  height: 25px;
-  left: 1.37px;
-  top: 100px;
-
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-
-#tid4 {
-  position: absolute;
-  width: 45.29px;
-  height: 25px;
-  left: 3.43px;
-  top: 150px;
-
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-
-#tid5 {
-  position: absolute;
-  width: 45.29px;
-  height: 25px;
-  left: 0px;
-  top: 200px;
-
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-
-#tid6 {
-  position: absolute;
-  width: 43.92px;
-  height: 25px;
-  left: 1.37px;
-  top: 250px;
-
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-
-#sid1 {
-  position: absolute;
-  width: 112px;
-  height: 25px;
-  left: 88px;
-  top: 0px;
-
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-}
-#sid2 {
-  position: absolute;
-  width: 120px;
-  height: 25px;
-  left: 88px;
-  top: 50px;
-
-  font-family: 'Stratos';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-#sid3 {
-  position: absolute;
-  width: 98px;
-  height: 25px;
-  left: 88px;
-  top: 100px;
-
-  font-family: 'Stratos';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-#sid4 {
-  position: absolute;
-  width: 101px;
-  height: 25px;
-  left: 88px;
-  top: 150px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF
-}
-#sid5 {
-  position: absolute;
-  width: 94px;
-  height: 25px;
-  left: 88px;
-  top: 200px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-}
-#sid6 {
-  position: absolute;
-  width: 109px;
-  height: 25px;
-  left: 88px;
-  top: 250px;
-
-  font-family: 'Stratos';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #FFFFFF;
-
-
-}
 
 
 
@@ -1276,6 +914,12 @@ color: #FFFFFF;
   position: relative;
   align-items: center;
   justify-content: center;
+
+  color: #2844DA;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'stratos_sb';
+  text-align: center;
 }
 
 .bus_one {
@@ -1284,25 +928,14 @@ color: #FFFFFF;
   height: 154px;
   left: 76px;
   top: 33px;
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 30px;
-display: flex;
-align-items: center;
-/* text-transform: capitalize; */
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
-
 }
 #zagold{
   position: absolute;
-left: 395px;
-top: 88px;
-font-weight: 900;
-font-size: 48px;
-width: 500px;
+  left: 395px;
+  top: 88px;
+  font-weight: 900;
+  font-size: 48px;
+  width: 500px;
 
 
 }
@@ -1312,98 +945,70 @@ font-size: 64px;
 #ar {
   position: absolute;
   left: 3.38%;
-  right: 92.25%;
   top: 14.93%;
-  bottom: 66.07%;
   transition: font-size .5s ease;
 }
 #br {
   position: absolute;
-left: 10.77%;
-right: 86.41%;
-top: 14.93%;
-bottom: 65.58%;
+  left: 10.77%;
+  top: 14.93%;
 }
 #vr{
   position: absolute;
   left: 17.61%;
-  right: 79.47%;
   top: 14.93%;
-  bottom: 65.58%;
-
 }
 #gr {
   position: absolute;
-left: 24.36%;
-right: 73.45%;
-top: 14.93%;
-bottom: 65.58%;
+  left: 24.36%;
+  top: 14.93%;
 }
 #dr{
   position: absolute;
-left: 30.93%;
-right: 65.88%;
-top: 14.93%;
-bottom: 65.58%;
+  left: 30.93%;
+  top: 14.93%;
 }
 #er {
   position: absolute;
-left: 37.96%;
-right: 59.49%;
-top: 14.93%;
-bottom: 65.58%;
+  left: 37.96%;
+  top: 14.93%;
 }
 #yor{
   position: absolute;
-left: 44.71%;
-right: 52.74%;
-top: 14.93%;
-bottom: 65.58%;
+  left: 44.71%;
+  top: 14.93%;
 }
 #zhr {
   position: absolute;
   left: 50.73%;
-  right: 45.26%;
   top: 14.29%;
-  bottom: 66.23%;
 }
 
 #zr {
   position: absolute;
-left: 58.12%;
-right: 39.23%;
-top: 14.93%;
-bottom: 65.58%;
+  left: 58.12%;
+  top: 14.93%;
 }
 
 #yeer {
   position: absolute;
   left: 64.51%;
-  right: 32.03%;
   top: 14.93%;
-  bottom: 65.58%;
 }
 #yr{
   position: absolute;
   left: 71.62%;
-  right: 25.55%;
   top: 14.93%;
-  bottom: 65.58%;
 }
 #kr{
   position: absolute;
-left: 78.19%;
-right: 18.71%;
-top: 14.93%;
-bottom: 65.58%;
-
+  left: 78.19%;
+  top: 14.93%;
 }
 #lr{
   position: absolute;
-left: 85.04%;
-right: 9.33%;
-top: 14.93%;
-bottom: 66.07%;
+  left: 85.04%;
+  top: 14.93%;
 }
 
 
@@ -1427,93 +1032,79 @@ bottom: 66.07%;
 
 
 .bus_two {
-position: absolute;
-width: 1263.01px;
-height: 178px;
-left: 132px;
-top: 202px;
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
-
+  position: absolute;
+  width: 1263.01px;
+  height: 178px;
+  left: 132px;
+  top: 202px;
 }
 
 
-#mr{position: absolute;
-left: 3.64%;
-right: 93.59%;
-top: 16.85%;
-bottom: 66.29%;}
-#nr{position: absolute;
-left: 10.85%;
-right: 86.46%;
-top: 16.85%;
-bottom: 66.29%;}
-#or{position: absolute;
-left: 17.66%;
-right: 79.65%;
-top: 16.85%;
-bottom: 66.29%;}
-#pr{position: absolute;
-left: 24.54%;
-right: 73%;
-top: 16.85%;
-bottom: 66.29%;}
-#rr{position: absolute;
-left: 31.27%;
-right: 66.51%;
-top: 16.85%;
-bottom: 66.29%;
+#mr{
+  position: absolute;
+  left: 3.64%;
+  top: 16.85%;
 }
-#sr{position: absolute;
-left: 38.16%;
-right: 59.7%;
-top: 16.85%;
-bottom: 66.29%;}
-#tr{position: absolute;
-left: 44.34%;
-right: 52.42%;
-top: 16.85%;
-bottom: 66.29%;}
-
-#ur{position: absolute;
-left: 51.54%;
-right: 46.08%;
-top: 16.85%;
-bottom: 66.29%;}
-#fr{position: absolute;
-left: 58.12%;
-right: 39.03%;
-top: 16.85%;
-bottom: 66.29%;}
-#hr{position: absolute;
-left: 64.92%;
-right: 32.38%;
-top: 16.85%;
-bottom: 66.29%;}
-#tsr{position: absolute;
-left: 71.02%;
-right: 25.02%;
-top: 16.85%;
-bottom: 66.29%;}
-#chr{position: absolute;
-left: 77.83%;
-right: 18.13%;
-top: 16.85%;
-bottom: 66.29%;}
+#nr{
+  position: absolute;
+  left: 10.85%;
+  top: 16.85%;
+}
+#or{
+  position: absolute;
+  left: 17.66%;
+  top: 16.85%;
+}
+#pr{
+  position: absolute;
+  left: 24.54%;
+  top: 16.85%;
+}
+#rr{
+  position: absolute;
+  left: 31.27%;
+  top: 16.85%;
+}
+#sr{
+  position: absolute;
+  left: 38.16%;
+  top: 16.85%;
+}
+#tr{
+  position: absolute;
+  left: 44.34%;
+  top: 16.85%;
+}
+#ur{
+  position: absolute;
+  left: 51.54%;
+  top: 16.85%;
+}
+#fr{
+  position: absolute;
+  left: 58.12%;
+  top: 16.85%;
+}
+#hr{
+  position: absolute;
+  left: 64.92%;
+  top: 16.85%;
+}
+#tsr{
+  position: absolute;
+  left: 71.02%;
+  top: 16.85%;
+}
+#chr{
+  position: absolute;
+  left: 77.83%;
+  top: 16.85%;
+}
 #shr{
   position: absolute;
   left: 85.51%;
-right: 11.72%;
-top: 16.85%;
-bottom: 66.29%;}
+  top: 16.85%;
+}
 
 
 
@@ -1523,49 +1114,42 @@ width: 535.97px;
 height: 164px;
 left: 60px;
 top: 391px;
-
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
 }
 
-#shchr{position: absolute;
-left: 31px;
-top: 15.78%;
-bottom: 66.02%;}
-#hard{position: absolute;
-left: 125px;
-top: 15.78%;
-bottom: 66.02%;
+#shchr{
+  position: absolute;
+  left: 4.5%;
+  top: 15.78%;
 }
-#yyr{position: absolute;
-left: 199px;
-top: 15.93%;
-bottom: 65.87%;}
-#softr{position: absolute;
-left: 284px;
-top: 15.93%;
-bottom: 65.87%;}
-#eer{position: absolute;
-left: 362px;
-top: 15.93%;
-bottom: 65.87%;}
-#uur{position: absolute;
-left: 429px;
-
-top: 15.93%;
-bottom: 65.87%}
-#yar{position: absolute;
-left: 521px;
-top: 15.78%;
-bottom: 66.02%;
+#hard{
+  position: absolute;
+  left: 125px;
+  top: 15.78%;
+}
+#yyr{
+  position: absolute;
+  left: 199px;
+  top: 15.93%;
+}
+#softr{
+  position: absolute;
+  left: 284px;
+  top: 15.93%;
+}
+#eer{
+  position: absolute;
+  left: 362px;
+  top: 15.93%;
+}
+#uur{
+  position: absolute;
+  left: 429px;
+  top: 15.93%;
+}
+#yar{
+  position: absolute;
+  left: 521px;
+  top: 15.78%;
 }
 
 
@@ -1590,18 +1174,6 @@ bottom: 66.02%;
   height: 164px;
   left: 878px;
   top: 464px;
-  font-family: 'Stratos';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: capitalize;
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #2844DA;
 }
 
 #zagole{
@@ -1611,7 +1183,6 @@ top: 75px;
 font-weight: 900;
 font-size: 48px;
 width: 500px;
-font-family: 'Stratos';
 font-style: normal;
 font-weight: 700;
 }
@@ -1628,236 +1199,149 @@ font-weight: 700;
 }
 #be{
   position: absolute;
-  left: 37.31%;
-  right: 50%;
+  left: 220px;
   top: 14.63%;
-  bottom: 63.41%;
 }
 #ce {
   position: absolute;
-left: 52.05%;
-right: 35.26%;
-top: 14.63%;
-bottom: 63.41%;
-
+  left: 52.05%;
+  top: 14.63%;
 }
 #de{
   position: absolute;
-left: 66.79%;
-right: 20.52%;
-top: 14.63%;
-bottom: 63.41%;
+  left: 66.79%;
+  top: 14.63%;
 }
-
 #ee{
   position: absolute;
-left: 81.53%;
-right: 5.78%;
-top: 14.63%;
-bottom: 63.41%;
+  left: 81.53%;
+  top: 14.63%;
 }
 
 
 
 .bus_five {
   position: absolute;
-width: 1197.94px;
-height: 170px;
-left: 128.02px;
-top: 655px;
-
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
-
+  width: 1197.94px;
+  height: 170px;
+  left: 128.02px;
+  top: 655px;
 }
 
 #fe {
   position: absolute;
-left: 9.91%;
-right: 83.85%;
-top: 13.64%;
-bottom: 62.99%;
+  left: 9.91%;
+  top: 13.64%;
 }
 #ge {
   position: absolute;
-left: 17.03%;
-right: 76.73%;
-top: 13.53%;
-bottom: 63.09%;
+  left: 17.03%;
+  top: 13.53%;
 }
 #he {
   position: absolute;
-left: 24.04%;
-right: 69.73%;
-top: 13.64%;
-bottom: 62.99%;
-
+  left: 24.04%;
+  top: 13.64%;
 }
 #ie {
   position: absolute;
-left: 31.1%;
-right: 62.66%;
-top: 13.64%;
-bottom: 62.99%;
-
+  left: 31.1%;
+  top: 13.64%;
 }
 #je {
   position: absolute;
-left: 37.34%;
-right: 56.42%;
-top: 13.64%;
-bottom: 62.99%;
+  left: 37.34%;
+  top: 13.64%;
 }
 #ke {
   position: absolute;
-left: 44.49%;
-right: 49.27%;
-top: 13.53%;
-bottom: 63.09%;
-
+  left: 44.49%;
+  top: 13.53%;
 }
 #le {
   position: absolute;
-left: 50.75%;
-right: 43.01%;
-top: 13.53%;
-bottom: 63.09%;
-
+  left: 50.75%;
+  top: 13.53%;
 }
 #me {
   position: absolute;
-left: 57.8%;
-right: 35.96%;
-top: 13.64%;
-bottom: 62.99%;
+  left: 57.8%;
+  top: 13.64%;
 }
 #ne {
   position: absolute;
-left: 64.61%;
-right: 29.15%;
-top: 13.53%;
-bottom: 63.09%;
+  left: 64.61%;
+  top: 13.53%;
 }
 #oe {
   position: absolute;
-left: 71.12%;
-right: 22.64%;
-top: 13.53%;
-bottom: 63.09%;
-
+  left: 71.12%;
+  top: 13.53%;
 }
 #pe {
   position: absolute;
-left: 79.88%;
-right: 17.78%;
-top: 16.47%;
-bottom: 65.88%;
+  left: 79.88%;
+  top: 16.47%;
 }
 #qe {
   position: absolute;
-left: 84.73%;
-right: 9.03%;
-top: 13.53%;
-bottom: 63.09%;
+  left: 84.73%;
+  top: 13.53%;
 }
 #re {
   position: absolute;
-left: 92.07%;
-right: 1.69%;
-top: 13.53%;
-bottom: 63.09%;
+  left: 92.07%;
+  top: 13.53%;
 }
 
 
 .bus_six {
   position: absolute;
-width: 729.94px;
-height: 159.99px;
-left: 659.02px;
-top: 864px;
-
-font-family: 'Stratos';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
+  width: 729.94px;
+  height: 159.99px;
+  left: 659.02px;
+  top: 864px;
 }
 
 #se{
   position: absolute;
-left: 14.93%;
-right: 75.75%;
-top: 14.1%;
-bottom: 62.82%;
+  left: 14.93%;
+  top: 14.1%;
 }
 #te{
   position: absolute;
-left: 25.89%;
-right: 64.79%;
-top: 14.1%;
-bottom: 62.82%;
+  left: 25.89%;
+  top: 14.1%;
 }
 #ue{
   position: absolute;
-left: 36.03%;
-right: 54.66%;
-top: 14.1%;
-bottom: 62.82%;
+  left: 36.03%;
+  top: 14.1%;
 }
 #ve{
   position: absolute;
-left: 46.58%;
-right: 44.11%;
-top: 14.1%;
-bottom: 62.82%;
-
+  left: 46.58%;
+  top: 14.1%;
 }
 #we{
   position: absolute;
-left: 55.89%;
-right: 34.79%;
-top: 14.1%;
-bottom: 62.82%;
+  left: 55.89%;
+  top: 14.1%;
 }
 #xe{
   position: absolute;
-left: 66.44%;
-right: 24.24%;
-top: 14.1%;
-bottom: 62.82%;
-
+  left: 66.44%;
+  top: 14.1%;
 }
 #ye{
   position: absolute;
-left: 76.58%;
-right: 14.11%;
-top: 14.1%;
-bottom: 62.82%;
-
+  left: 76.58%;
+  top: 14.1%;
 }
 #ze{
   position: absolute;
-left: 86.72%;
-right: 3.97%;
-top: 14.1%;
-bottom: 62.82%;
+  left: 86.72%;
+  top: 14.1%;
 }
 
 .svnth-page {
@@ -1867,95 +1351,69 @@ bottom: 62.82%;
   position: relative;
   align-items: center;
   justify-content: center;
+  color: #2844DA;
+
+  font-family: 'stratos_sb';
+  font-size: 36px;
+  line-height: 45px;
 }
 
-/* .amath {
-  position: absolute;
-width: 785px;
-height: 166px;
-left: 45px;
-top: 100px;
 
-
-font-style: normal;
-font-weight: 900;
-font-size: 48px;
-line-height: 60px;
-display: flex;
-align-items: center;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
-
-} */
 .amath{
   position: absolute;
-left: 135px;
-top: 250px;
-
+  left: 135px;
+  top: 250px;
+}
+.atext {
+  position: absolute;
+  right: 135px;
+  top: 450px;
 }
 .smallh{
   position: absolute;
-width: 254px;
-height: 45px;
-left: 0.52px;
-top: 297.72px;
-
-
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 45px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'onum' on;
-
-color: #2844DA;
-
+  left: 28.52px;
+  top: 297.72px;
+  text-transform: uppercase;
 }
 
-.atext {
-  position: absolute;
-right: 135px;
-top: 450px;
-}
 .smalln{
   position: absolute;
   width: 109px;
   height: 45px;
-  left: 54.52px;
-  top: 300.72px;
-
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 45px;
-  display: flex;
-  align-items: center;
+  left: 66.52px;
+  top: 300.58px;
   text-transform: uppercase;
-  font-feature-settings: 'pnum' on, 'onum' on;
-
-  color: #2844DA;
-
-  transform: matrix(1, -0.01, -0.01, 1, 0, 0);}
-
+}
 .iukr{
   position: absolute;
   width: 138px;
   height: 567px;
   left: 541px;
   top: 515px;
-
+  text-transform: uppercase;
+}
+.smallukr {
+  position: absolute;
+  width: 181.51px;
+  height: 46.23px;
+  left: -12px;
+  bottom: 150px;
 }
 .iamer{
   position: absolute;
-width: 120px;
-height: 567px;
-left: 827px;
-top: 315px;
+  width: 120px;
+  height: 567px;
+  left: 827px;
+  top: 315px;
+  text-transform: uppercase;
 }
-
+.smallamer {
+  position: absolute;
+  width: 181.51px;
+  height: 46.23px;
+  left: -16px;
+  bottom: 150px;
+}
 
 
 
@@ -1974,73 +1432,51 @@ top: 315px;
   position: relative;
   align-items: center;
   justify-content: center;
+
+  font-family: 'stratos_sb';
+  color: white;
 }
 .lastznak{
   position: absolute;
-width: 1066px;
-height: 523px;
-left: 187px;
-bottom: 380px;
+  width: 1066px;
+  height: 523px;
+  left: 187px;
+  bottom: 380px;
 
-background: #2844DA;
-border-radius: 150px;
+  background: #2844DA;
+  border-radius: 150px;
+  font-size: 96px;
+  line-height: 121px;
 }
 
 .poka{
   position: absolute;
-width: 1050px;
-height: 121px;
-left: 18px;
-top: 118px;
-
-
-font-style: normal;
-font-weight: 800;
-font-size: 96px;
-line-height: 121px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
+  width: 1050px;
+  height: 121px;
+  left: 140px;
+  top: 118px;
 }
 .bye{
   position: absolute;
-width: 845px;
-height: 121px;
-left: 111px;
-top: 285px;
-
-
-font-style: normal;
-font-weight: 800;
-font-size: 96px;
-line-height: 121px;
-/* identical to box height */
-
-
-color: #FFFFFF;
+  width: 845px;
+  height: 121px;
+  left: 205px;
+  top: 285px;
 }
 
 
 .footer {
   position: absolute;
-left: 23px;
-bottom: 0px;
+  left: 23px;
+  bottom: 0px;
 }
 .final{
   position: absolute;
-width: 503px;
-height: 36px;
-left: 55px;
-top: 64px;
+  left: 55px;
+  top: 64px;
 
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 30px;
-
-color: #FFFFFF;
+  font-size: 24px;
+  font-family: 'stratos_r'
 }
 .finalend{
   position: absolute;
@@ -2049,10 +1485,6 @@ height: 30px;
 left: 55px;
 top: 100px;
 
-font-style: normal;
-font-weight: 600;
 font-size: 24px;
-line-height: 30px;
-
-color: #FFFFFF;
+font-family: 'stratos_r'
 }
