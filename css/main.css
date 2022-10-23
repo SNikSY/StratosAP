@@ -4,13 +4,101 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: Stratos;
-  src: url(/fonts/Stratos-SemiBold.otf);
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-ThinItalic.otf);
   font-weight: 100;
 }
-
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-SemiLightItalic.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-SemiLight.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-SemiBoldItalic.otf);
+  font-weight: 600;
+}
+/* @font-face {
+  font-family: Stratos-SemiBold;
+  src: url(/fonts/Stratos-SemiBold.woff2);
+  /* font-weight: 600; */
+} */
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-MediumItalic.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-Medium.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(../fonts/Stratos-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-Italic.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-ExtraLightItalic.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-ExtraLight.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-ExtraBoldItalic.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-ExtraBold.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-BoldItalic.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Stratos-Bold;
+  src: url(/fonts/Stratos-Bold.otf);
+  /* font-weight: 500; */
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-BlackItalic.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: stratos_f;
+  src: url(/fonts/Stratos-Black.otf);
+  font-weight: 600
+}
 body {
-  font-family: 'Stratos';
   background-color: white;
   font-family: stratos_r, sans-serif;
   justify-content: center;
@@ -48,7 +136,7 @@ img {
   font-weight: bold;
   margin-top: 236px;
   margin-left: 459px;
-  font-family: Stratos;
+  font-family: Stratos-Bold;
 }
 .titletwo {
   position: absolute;
@@ -57,7 +145,7 @@ img {
   font-weight: bold;
   margin-top: 236px;
   margin-left: 1082px;
-  font-family: Stratos;
+  font-family: Stratos-Bold;
 }
 .leftznak {
   position: absolute;
