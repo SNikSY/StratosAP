@@ -133,11 +133,9 @@ img {
   font-weight: 600;
   font-size: 22px;
   line-height: 25px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-feature-settings: 'pnum' on, 'onum' on;
 
   color: #FFFFFF;
 }
@@ -153,8 +151,8 @@ img {
   color: #2844DA;
   font-size: 220px;
   font-weight: regular;
-  margin-top: -332px;
-  margin-left: -28px;
+  top: 335px;
+  left: 458px;
   text-transform: lowercase;
   font-family: "stratos_b";
 }
@@ -163,8 +161,8 @@ img {
   color: #2844DA;
   font-size: 220px;
   font-weight: bold;
-  margin-top: -332px;
-  margin-left: 835px;
+  top: 335px;
+  left: 1080px;
   text-transform: lowercase;
   font-family: "stratos_b";
 }
