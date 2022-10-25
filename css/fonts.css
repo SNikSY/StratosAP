@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-semibold.otf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-extrabold.otf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-black.otf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-thinitalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-extralightitalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-lightitalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-semilightitalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-italic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-mediumitalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-semibolditalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-bolditalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-extrabolditalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "stratos_r";
+  src: url("../fonts/StratosLCG-Desktop-blackitalic.otf") format("truetype");
+  font-style: italic;
+  font-weight: 950;
+}
