@@ -22,7 +22,7 @@ img {
 
 }
 
-.header {
+header {
   width: 1440px;
   height: 1024px;
   background-color: #white;
@@ -275,11 +275,13 @@ line-height: 567px;
   background-color: #white;
   position: relative;
   align-items: center;
+  dispaly: flex;
   justify-content: center;
   color: white;
   font-family: "stratos_r";
   font-style: normal;
   font-weight: 600;
+  align-items: center;
 }
 
 .znak {
@@ -856,7 +858,7 @@ top: 64.68%;
   position: absolute;
   left: 395px;
   top: 88px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 48px;
   width: 500px;
 
@@ -1103,7 +1105,6 @@ top: 391px;
   position: absolute;
 left: 25px;
 top: 75px;
-font-weight: 900;
 font-size: 48px;
 width: 500px;
 font-style: normal;
@@ -1153,68 +1154,68 @@ font-weight: 700;
 
 #fe {
   position: absolute;
-  left: 9.91%;
-  top: 13.64%;
+  left: 12.16%;
+  top: 15.99%;
 }
 #ge {
   position: absolute;
-  left: 17.03%;
-  top: 13.53%;
+  left: 18.95%;
+  top: 15.88%;
 }
 #he {
   position: absolute;
-  left: 24.04%;
-  top: 13.64%;
+  left: 25.96%;
+  top: 15.99%;
 }
 #ie {
   position: absolute;
-  left: 31.1%;
-  top: 13.64%;
+  left: 33.22%;
+  top: 15.88%;
 }
 #je {
   position: absolute;
-  left: 37.34%;
-  top: 13.64%;
+  left: 39.68%;
+  top: 15.99%;
 }
 #ke {
   position: absolute;
-  left: 44.49%;
-  top: 13.53%;
+  left: 46.49%;
+  top: 15.88%;
 }
 #le {
   position: absolute;
-  left: 50.75%;
-  top: 13.53%;
+  left: 53.17%;
+  top: 15.88%;
 }
 #me {
   position: absolute;
-  left: 57.8%;
-  top: 13.64%;
+  left: 59.22%;
+  top: 15.99%;
 }
 #ne {
   position: absolute;
-  left: 64.61%;
-  top: 13.53%;
+  left: 66.53%;
+  top: 15.88%;
 }
 #oe {
   position: absolute;
-  left: 71.12%;
-  top: 13.53%;
+  left: 73.04%;
+  top: 15.88%;
 }
 #pe {
   position: absolute;
   left: 79.88%;
-  top: 16.47%;
+  top: 15.88%;
 }
 #qe {
   position: absolute;
-  left: 84.73%;
-  top: 13.53%;
+  left: 86.65%;
+  top: 15.88%;
 }
 #re {
   position: absolute;
-  left: 92.07%;
-  top: 13.53%;
+  left: 94.24%;
+  top: 15.88%;
 }
 
 
@@ -1228,43 +1229,43 @@ font-weight: 700;
 
 #se{
   position: absolute;
-  left: 14.93%;
-  top: 14.1%;
+  left: 17.94%;
+  top: 15.88%;
 }
 #te{
   position: absolute;
-  left: 25.89%;
-  top: 14.1%;
+  left: 29.18%;
+  top: 15.88%;
 }
 #ue{
   position: absolute;
-  left: 36.03%;
-  top: 14.1%;
+  left: 38.77%;
+  top: 15.88%;
 }
 #ve{
   position: absolute;
-  left: 46.58%;
-  top: 14.1%;
+  left: 49.18%;
+  top: 15.88%;
 }
 #we{
   position: absolute;
-  left: 55.89%;
-  top: 14.1%;
+  left: 58.5%;
+  top: 16.25%;
 }
 #xe{
   position: absolute;
-  left: 66.44%;
-  top: 14.1%;
+  left: 69.45%;
+  top: 15.88%;
 }
 #ye{
   position: absolute;
-  left: 76.58%;
-  top: 14.1%;
+  left: 79.73%;
+  top: 15.88%;
 }
 #ze{
   position: absolute;
-  left: 86.72%;
-  top: 14.1%;
+  left: 89.87%;
+  top: 15.88%;
 }
 
 .svnth-page {
@@ -1350,7 +1351,7 @@ font-weight: 700;
 
 
 
-.eght-page {
+footer {
   width: 1440px;
   height: 1024px;
   background-color: white;
