@@ -25,7 +25,7 @@ img {
 header {
   width: 1440px;
   height: 1024px;
-  background-color: #white;
+  background-color: white;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -178,7 +178,7 @@ top: 206.5px;
 .scnd-page {
   width: 1440px;
   height: 1024px;
-  background-color: #white;
+  background-color: white;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -272,7 +272,7 @@ line-height: 567px;
 .thrd-page {
   width: 1440px;
   height: 1024px;
-  background-color: #white;
+  background-color: white;
   position: relative;
   align-items: center;
   dispaly: flex;
